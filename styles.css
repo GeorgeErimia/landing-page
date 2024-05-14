@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.header-container {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-weight:bolder;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.link-one,
+.link-two,
+.link-three {
+    margin-right: 24px;
+    opacity: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding-bottom: 10px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 10px;
+}
+
+.overview {
+    padding-top: 100px;
+    display:flex;
+}
+
+.description {
+    /* border: 1px solid white; */
+    flex: 1;
+}
+
+.image-placeholder {
+    /* border: 1px solid white; */
+    flex: 1;
+    background-image: url('https://placehold.co/600x400');
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    margin-left: 80px;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    padding: 10px 32px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+}
+.images {
+    display: flex;
+}
+
+.image {
+    width: 150px;
+    height: auto;
+    /* border: 2px solid black; */
+    margin: 24px 36px;
+}
+
+.image-rounded {
+    border-radius: 15px;
+    border: 5px solid  #3882f6;
+}
+
+.image-text {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.random-information {
+    font-size: 36px;
+    font-weight: bolder;
+    columns: #1f2937;
+    padding-bottom: 24px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 15%;
+}
+
+.quote {
+    font-style:italic;
+    opacity: 50%;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    margin: 5% 15%;
+    border-radius: 10px;
+    display: flex;
+    padding: 5% 10%;
+    justify-content: space-between;
+}
+
+.text .header {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.text .paragraph {
+    color: #e5e7eb;
+    opacity: 80%;
+    font-size: 15px;
+}
